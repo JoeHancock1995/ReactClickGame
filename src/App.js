@@ -12,20 +12,21 @@ state = {
   images
 };
 
-
-render() {
-  return (
-    <Wrapper>
-
-      <Header/>
-      {this.state.images.map(Image => (
-    <Card
-      id={Image.id}
-      image={Image.image}
-    />
-  ))}
-    </Wrapper>
-  );
-}
+// images is the json file
+// cardImage is what is being mapped
+// image is the actual image reference only used once
+  render() {
+    return (
+      <Wrapper>
+        <Header></Header>
+        {this.state.images.map(cardImage => (
+          <Card
+            id={cardImage.id}
+            image={cardImage.image}
+          />
+        ))}
+      </Wrapper>
+    );
+  }
 }
 export default App;
