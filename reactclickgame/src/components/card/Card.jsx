@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 
-class Card extends React.Component {
-    constructor(){
-        super()
-        this.state = {
-            
-        }
-    }
-render() {
-// const notClicked = props.clickboxes.filter(clickbox => !clickbox.clicked);
+function ImgCard(props) {
     return (
-          <button className="square" onClick={function() { alert('click');}}>
-           {this.props.value}     
-          </button>
-    )
-    }
-};
+        <div className="Card">
+            <div className="img-container">
+                <img alt={props.name} src={props.image} />
+            </div>
+        <span onClick={() => props.shuffleCard(props.id)}className="shuffle"></span>
+        </div> 
+    );
+}
 export default Card;
