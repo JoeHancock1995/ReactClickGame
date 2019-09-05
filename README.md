@@ -28,10 +28,6 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 ### Instructions
 
-1. Check out the [example solution](https://clicky-game.netlify.com/) and study the app's basic functionality.
-
-2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
-
 3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
 
 4. The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.

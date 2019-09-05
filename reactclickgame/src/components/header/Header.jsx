@@ -10,9 +10,12 @@ return (
     <div>
         <h1>Card Click Game</h1>
         <p>Click on each image only once to earn a point. Score will reset if you click the same one more than once.</p>
+        <div className="score">
+            <h2>Score:</h2>
+            <h2>Top Score:</h2>
+        </div>
     </div>
     )
 }
-
 
 export default Header;
