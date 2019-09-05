@@ -1,22 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Header from './components/header/Header';
-import Wrapper from './components/wrapper/wrapper';
-// import Card from './components/card/Card';
+import Wrapper from './components/wrapper/Wrapper';
+import Card from './components/card/Card';
+import images from './images.json';
 // import Footer from './components/footer/Footer';
 
 import './styles/main.css';
 
-// class App extends Component {
-// state = 
-// }
+class App extends Component {
+state = {
+  images
+};
 
-function App() {
+
+render() {
   return (
-    <div className="App">
-      <Header/>
+    <Wrapper>
 
-    </div>
+      <Header/>
+      {this.state.images.map(Image => (
+    <Card
+      id={Image.id}
+      image={Image.image}
+    />
+  ))}
+    </Wrapper>
   );
 }
-
+}
 export default App;

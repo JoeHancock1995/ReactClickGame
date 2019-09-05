@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function ImgCard(props) {
+function Card(props) {
     return (
-        <div className="Card">
+        <div className="card-container">
             <div className="img-container">
                 <img alt={props.name} src={props.image} />
             </div>
