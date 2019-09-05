@@ -25,7 +25,6 @@ class App extends Component {
             id={cardImage.id}
             image={cardImage.image}
           /> */}
-        ))}
       </Wrapper>
     );
   }
