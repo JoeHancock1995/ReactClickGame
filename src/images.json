@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "picture01",
-    "image": "https://raw.githubusercontent.com/JoeHancock1995/ReactClickGame/master/reactclickgame/src/styles/img/pic01.jpg"
+    "image": "./styles/img/pic01.jpg"
   },
   {
     "id": 2,
