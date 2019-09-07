@@ -1,13 +1,12 @@
 import React from 'react';
-import '../../images.json'
+import '../../images.json';
+import CardImages from './CardImages'
+
 const Card = props => {
     console.log(props)
     return(
         <div>
-            <span>
-                <img alt={props.name} src={props.url}/>
-            </span>
-        {props.children}
+            <CardImages/>
         </div>
     ) 
 }
