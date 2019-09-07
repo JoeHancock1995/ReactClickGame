@@ -1,28 +1,25 @@
 .card-container {
     background: #fff;
+    border: 3px outset;
     border-radius: 2px;
-    height: 325px;
-    margin: 1rem;
-    position: relative;
-    width: 325px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
+    height: 150px;
+    width: 100px;
+    box-shadow: 4px greenyellow;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
   .card-container > .img-container {
-    height: 60%;
-    overflow: hidden;
+    height: 100%;
     text-align: center;
-    background:#6CADDC;
+    background:black;
   }
   .card-container> .img-container > img {
     width: 50%
   }
   
 
-  
-
-  
   .card > .remove:hover {
     color: #d50000;
   }

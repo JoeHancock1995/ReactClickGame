@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Header from './components/header/Header';
 import Wrapper from './components/wrapper/Wrapper';
 import Card from './components/card/Card';
-import images from './components/images.json'
+import './images.json'
+import images from './images'
 // import pic01 from './images/pic01.png';
 // import pic02 from './images/pic02.png';
 // import pic03 from './images/pic03.png';
@@ -24,21 +25,18 @@ class App extends Component {
 state = {
   images
 };
-
-// images is the json file
-// cardImage is what is being mapped
-// image is the actual image reference only used once
+// images is the json file. cardImage is what is being mapped. image is the actual image reference only used once
   render() {
     return (
       <Wrapper>
         <Header/>
-        <Card/>
-        {this.state.images.map(cardImage => (
+        {this.state.images.map(Image => (
           <Card
-            id={cardImage.id}
-            image={cardImage.image}
+            id={Image.id}
+            image={Image.image}
           />
         ))}
+        {/* <Footer/> */}
       </Wrapper>
     );
   }
