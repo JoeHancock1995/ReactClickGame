@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "picture01",
-    "image": "./images/pic01.png"
+    "name": "pic01",
+    "image": "./static/media/pic01.bec7bc18.png"
   },
   {
     "id": 2,
