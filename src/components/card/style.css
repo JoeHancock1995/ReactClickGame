@@ -1,8 +1,8 @@
-.card-container {
+/* container-box >.button {
     background: #fff;
     border: 3px outset;
     border-radius: 2px;
-    height: 150px;
+    height: 50px;
     width: 100px;
     box-shadow: 4px greenyellow;
     text-align: center;
@@ -23,8 +23,4 @@
   .card > .remove:hover {
     color: #d50000;
   }
-  
- .card > .span {
-    height: 100px;
-    width: 200px;
-  }
+   */
