@@ -10,13 +10,27 @@ class Game extends component {
         topScore:0
     };
 
-componentDidMount () {
-    this.setState(
-        images: this.randomizeCards(this.state.images)
- )
-};
+// componentDidMount () {
+//     this.setState{(
+//         images: this.randomizeCards(this.state.images)
+//     })
+// };
 
-
+randomizeCards = CardImages => {
+    let currentIndex = CardImages.length - 1;
+    while (currentIndex > 0) {
+    const randomNum = Math.floor(Math.random() * (currentIndex+1));
+    const lastIndexPlaceholder=CardImages[currentIndex];
+    CardImages[currentIndex] = CardImages[randomNum];
+    CardImages[randomNum] = lastIndexPlaceholder;
+    currentIndex--;
+    }
+    return
+}
+function setRandomNumber {
+    randomNumber = getRandomNumber();
+    $("#randomNumber").append(randomNumber);
+}
 
 //UNIT 4 GAME USE FOR REFERENCE. NOT REACT CODE
 //var wins = 0;
