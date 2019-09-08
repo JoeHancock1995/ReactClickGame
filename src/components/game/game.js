@@ -1,11 +1,20 @@
 import React, { component } from "react";
 import CardImages from '../card/CardImages';
 import card from '../card/index';
-import '../../images.json'
+import images from '../../images.json';
 
 class Game extends component {
+    state ={
+        images,
+        score:0,
+        topScore:0
+    };
 
-}
+componentDidMount () {
+    this.setState(
+        images: this.randomizeCards(this.state.images)
+ )
+};
 
 
 
