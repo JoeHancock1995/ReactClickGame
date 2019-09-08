@@ -1,5 +1,13 @@
 import React, { component } from "react";
-import
+import CardImages from '../card/CardImages';
+import card from '../card/index';
+import '../../images.json'
+
+class Game extends component {
+
+}
+
+
 
 //UNIT 4 GAME USE FOR REFERENCE. NOT REACT CODE
 //var wins = 0;

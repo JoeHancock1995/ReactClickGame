@@ -17,19 +17,18 @@ import pic12 from './images/pic12.png';
 function CardImages(props) {
     return (
         <div className="container-box">
-            <button><img alt={Image.prop} src={pic01}/></button>
-            <button><img alt={pic02} src={pic02}/></button>
-            <button><img alt={pic03} src={pic03}/></button>
-            <button><img alt={pic04} src={pic04}/></button>
-            <button><img alt={pic05} src={pic05}/></button>
-            <button><img alt={pic06} src={pic06}/></button>
-            <button><img alt={pic07} src={pic07}/></button>
-            <button><img alt={pic08} src={pic08}/></button>
-            <button><img alt={pic09} src={pic09}/></button>
-            <button><img alt={pic10} src={pic10}/></button>
-            <button><img alt={pic11} src={pic11}/></button>
-            <button> <img alt={pic12} src={pic12}/></button>
-
+            <img alt={Image.prop} src={pic01}/>
+            <img alt={pic02} src={pic02}/>
+            <img alt={pic03} src={pic03}/>
+            <img alt={pic04} src={pic04}/>
+            <img alt={pic05} src={pic05}/>
+            <img alt={pic06} src={pic06}/>
+            <img alt={pic07} src={pic07}/>
+            <img alt={pic08} src={pic08}/>
+            <img alt={pic09} src={pic09}/>
+            <img alt={pic10} src={pic10}/>
+            <img alt={pic11} src={pic11}/>
+            <img alt={pic12} src={pic12}/>
         </div> 
     );
 }
